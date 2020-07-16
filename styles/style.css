@@ -14,39 +14,43 @@ a {
 }
 
 header {
-  padding-right: 10px;
   height: 50px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 header a {
   font-weight: bold;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .ml-15 {
   margin-left: 15px;
 }
 
-nav ul {
-  display: flex;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
+.mr-10 {
   margin-right: 10px;
 }
 
-pl-10 {
+.pl-10 {
   padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.d-f {
+  display: flex;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.ali-c {
+  align-items: center;
 }
