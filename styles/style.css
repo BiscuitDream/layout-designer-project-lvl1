@@ -1,3 +1,7 @@
+:root {
+  --header-height: 50px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -14,11 +18,21 @@ a {
 }
 
 header {
-  height: 50px;
+  height: var(--header-height);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  flex-grow: 1;
 }
 
 header a {
   font-weight: bold;
+}
+
+main {
+  margin-top: var(--header-height);
 }
 
 .list-reset {
