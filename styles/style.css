@@ -47,10 +47,37 @@ header a {
   display: flex;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .jc-sb {
   justify-content: space-between;
 }
 
 .ali-c {
   align-items: center;
+}
+
+.col-white {
+  color: #ffffff;
+}
+
+.banner {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-color: #757281;
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button {
+  display: block;
+  padding: 5px;
+  /* background-color: transparent; */
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
 }
