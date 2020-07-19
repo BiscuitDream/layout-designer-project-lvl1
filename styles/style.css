@@ -57,6 +57,14 @@ main {
   padding-right: 10px;
 }
 
+.w-30pr {
+  width: 30%;
+}
+
+.bg-grey {
+  background-color: #f7f7f7;
+}
+
 .d-flex {
   display: flex;
 }
@@ -94,4 +102,13 @@ main {
   border: 1px solid #ffffff;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.wrapper-section {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.wrapper-text {
+  width: 500px;
 }
