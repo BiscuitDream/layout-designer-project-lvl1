@@ -88,6 +88,10 @@ nav {
   justify-content: space-between;
 }
 
+.jc-sa {
+  justify-content: space-around;
+}
+
 .ali-c {
   align-items: center;
 }
@@ -138,6 +142,23 @@ nav {
 .wrapper-section {
   width: 1000px;
   margin: 0 auto;
+  padding-top: 65px;
+  padding-bottom: 80px;
+}
+
+.section-headline {
+  margin: 0;
+  margin-bottom: 18px;
+  font-size: 30px;
+}
+
+.section-description {
+  margin: 0;
+  line-height: 24px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
 }
 
 .wrapper-text {
