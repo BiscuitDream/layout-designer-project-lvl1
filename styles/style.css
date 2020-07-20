@@ -97,8 +97,8 @@ nav {
 }
 
 .banner {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 38px;
+  padding-bottom: 33px;
 
   background-color: #757281;
   background-image: url("../images/banner.png");
@@ -106,13 +106,28 @@ nav {
   background-position: center;
 }
 
+.banner-headline {
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 48px;
+}
+
+.banner-tagline {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
 .button {
   display: block;
-  padding: 5px;
+  padding: 13px;
   background-color: transparent;
   border: 1px solid #ffffff;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
+
+  font-weight: bold;
 }
 
 .button-form {
