@@ -1,5 +1,5 @@
 :root {
-  --header-height: 50px;
+  --header-height: 60px;
   --form-green: #2ad3ac;
 }
 
@@ -19,6 +19,8 @@ a {
 }
 
 header {
+  padding-left: 20px;
+  padding-right: 20px;
   height: var(--header-height);
   position: fixed;
   top: 0;
@@ -36,6 +38,10 @@ main {
   margin-top: var(--header-height);
 }
 
+nav {
+  font-size: 13px;
+}
+
 .list-reset {
   list-style: none;
   margin: 0;
@@ -46,17 +52,17 @@ main {
   margin-left: 15px;
 }
 
-.mr-10 {
-  margin-right: 10px;
+.mr-13 {
+  margin-right: 13px;
 }
 
-.pl-10 {
+/* .pl-10 {
   padding-left: 10px;
-}
+} */
 
-.pr-10 {
+/* .pr-10 {
   padding-right: 10px;
-}
+} */
 
 .w-30pr {
   width: 30%;
