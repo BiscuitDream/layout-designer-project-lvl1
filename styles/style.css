@@ -66,6 +66,10 @@ main {
   background-color: #f7f7f7;
 }
 
+.bg-dark-blue {
+  background-color: #303846;
+}
+
 .d-flex {
   display: flex;
 }
