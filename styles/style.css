@@ -98,7 +98,7 @@ nav {
 
 .banner {
   padding-top: 38px;
-  padding-bottom: 33px;
+  padding-bottom: 29px;
 
   background-color: #757281;
   background-image: url("../images/banner.png");
@@ -121,7 +121,7 @@ nav {
 
 .button {
   display: block;
-  padding: 13px;
+  padding: 15px;
   background-color: transparent;
   border: 1px solid #ffffff;
   border-radius: 10px;
