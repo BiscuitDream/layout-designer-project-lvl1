@@ -74,31 +74,39 @@
     </section>
 
     <section class="form bg-grey">
-      <div class="wrapper-form">
-        <h2 class="talign-center">Оставьте заявку сегодня!</h2>
+      <div class="wrapper-section">
+        <h2 class="section-headline talign-center mb-40">Оставьте заявку сегодня!</h2>
         <form id="request" action="">
-          <fieldset>
+          <fieldset class="mb-20">
             <legend>Параметры квартиры</legend>
-            <div>
+            <div class="d-flex jc-sb ali-c mb-10">
               <label for="rooms">Количество комнат:</label>
-              <input id="rooms" type="text">
+              <select class="mr-50" id="rooms" type="text">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
             </div>
-            <div>
+            <div class="d-flex jc-sb ali-c mb-30">
               <label for="decoration">Отделка:</label>
-              <input id="decoration" type="text">
+              <select class="mr-50" id="decoration" type="text">
+                <option value="">Без отделки</option>
+                <option value="minimal">Минимальная</option>
+                <option value="maximum">Максимальная</option>
+              </select>
             </div>
           </fieldset>
-          <fieldset>
+          <fieldset class="mb-20">
             <legend>Контактная информация</legend>
-            <div>
+            <div class="d-flex jc-sb ali-c mb-10">
               <label for="name">Имя:</label>
               <input id="name" type="text">
             </div>
-            <div>
+            <div class="d-flex jc-sb ali-c mb-10">
               <label for="phone">Телефон:</label>
               <input id="phone" type="text">
             </div>
-            <div>
+            <div class="d-flex jc-sb ali-c mb-30">
               <label for="email">E-mail:</label>
               <input id="email" type="text">
             </div>

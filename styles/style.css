@@ -126,6 +126,7 @@ nav {
 .button {
   display: block;
   padding: 15px;
+  font-size: inherit;
   background-color: transparent;
   border: 1px solid #ffffff;
   border-radius: 10px;
@@ -137,6 +138,7 @@ nav {
 .button-form {
   border-color: var(--form-green);
   color: var(--form-green);
+  width: 160px;
 }
 
 .wrapper-section {
@@ -168,16 +170,72 @@ nav {
 .wrapper-form {
   margin: 0 auto;
   width: 600px;
+  padding-top: 65px;
+  padding-bottom: 80px;
 }
 
 .talign-center {
   text-align: center;
 }
 
+form {
+  margin: 0 auto;
+  width: 460px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
 fieldset {
+  margin: 0;
+  padding: 0 20px;
   border: 2px solid var(--form-green);
 }
 
 legend {
-  color:var(--form-green);;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color:var(--form-green);
+}
+
+form label {
+  font-weight: bold;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
+select {
+  box-sizing: border-box;
+  padding: 8px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  padding: 6px;
+  width: 200px;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mr-15 {
+  margin-right: 15px;
 }
