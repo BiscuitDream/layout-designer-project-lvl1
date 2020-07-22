@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <header class="d-flex jc-sb ali-c">
+  <header class="main-header d-flex jc-sb ali-c">
     <a class="d-flex ali-c" href="index.html">
       <img src="./images/logo.svg" alt="Логотип ЖК «Лунное море»" width="35">
       <span class="ml-15">Лунное море</span>
@@ -25,11 +25,13 @@
   </header>
 
   <main>
-    <section class="banner d-flex flex-column ali-c col-white">
-      <img src="./images/logo.svg" alt="Логотип ЖК «Лунное море»" width="170">
-      <h1 class="banner-headline">ЖК «Лунное море»</h1>
-      <p class="banner-tagline">Место, откуда не хочется улетать</p>
-      <a class="button" href="#request">Забронировать</a>
+    <section class="intro col-white">
+      <div class="wrapper-section d-flex flex-column ali-c">
+        <img src="./images/logo.svg" alt="Логотип ЖК «Лунное море»" width="170">
+        <h1 class="intro-headline">ЖК «Лунное море»</h1>
+        <p class="intro-tagline">Место, откуда не хочется улетать</p>
+        <a class="button" href="#request">Забронировать</a>
+      </div>
     </section>
 
     <section id="advantages">
@@ -52,7 +54,7 @@
     </section>
 
     <section id="about" class=" bg-grey">
-      <div class="wrapper-section d-flex jc-sa">
+      <div class="wrapper-section d-flex jc-sa ali-c">
         <div class="wrapper-text">
           <h2 class="section-headline">О ЖК «Лунное море»</h2>
           <p class="section-description mb-15">Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
@@ -63,7 +65,7 @@
     </section>
 
     <section id="relaxation">
-      <div class="wrapper-section d-flex jc-sa">
+      <div class="wrapper-section d-flex jc-sa ali-c">
         <img src="./images/moon-2.jpg" alt="Вид на луну" width="300">
         <div class="wrapper-text">
           <h2 class="section-headline">Места для отдыха</h2>
@@ -111,7 +113,7 @@
               <input id="email" type="text">
             </div>
           </fieldset>
-          <button class="button button-form" type="submit">Отправить</button>
+          <button class="button button-green" type="submit">Отправить</button>
         </form>
       </div>
     </section>
