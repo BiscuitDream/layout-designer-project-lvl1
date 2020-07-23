@@ -22,12 +22,15 @@ a {
   padding-left: 20px;
   padding-right: 20px;
   height: var(--header-height);
+  background-color: #ffffff;
+  flex-grow: 1;
+}
+
+.fixed-on-top {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: #ffffff;
-  flex-grow: 1;
 }
 
 .main-header a {
@@ -38,9 +41,9 @@ main {
   margin-top: var(--header-height);
 }
 
-nav {
+/* .main-nav {
   font-size: 13px;
-}
+} */
 
 .list-reset {
   list-style: none;
