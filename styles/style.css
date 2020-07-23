@@ -1,6 +1,14 @@
 :root {
   --header-height: 60px;
-  --form-green: #2ad3ac;
+
+  --text-primary: #303846;
+  --text-white: #ffffff;
+  --text-green: #2ad3ac;
+
+
+  --bg-primary: #ffffff;
+  --bg-grey: #f7f7f7;
+  --bg-dark: #303846;
 }
 
 body {
@@ -9,8 +17,8 @@ body {
 
   font-family: "Arial", sans-serif;
   font-size: 16px;
-  color: #303846;
-  background-color: #ffffff;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
 }
 
 a {
@@ -22,7 +30,7 @@ a {
   padding-left: 20px;
   padding-right: 20px;
   height: var(--header-height);
-  background-color: #ffffff;
+  background-color: var(--bg-primary);
   flex-grow: 1;
 }
 
@@ -64,11 +72,11 @@ main {
 }
 
 .bg-grey {
-  background-color: #f7f7f7;
+  background-color: var(--bg-grey);
 }
 
 .bg-dark-blue {
-  background-color: #303846;
+  background-color: var(--bg-dark);
 }
 
 .d-flex {
@@ -92,7 +100,7 @@ main {
 }
 
 .text-white {
-  color: #ffffff;
+  color: var(--text-white);
 }
 
 .intro {
@@ -123,7 +131,7 @@ h1 {
   padding: 15px;
   font-size: inherit;
   background-color: transparent;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--text-white);
   border-radius: 10px;
   cursor: pointer;
 
@@ -131,8 +139,8 @@ h1 {
 }
 
 .button-green {
-  border-color: var(--form-green);
-  color: var(--form-green);
+  border-color: var(--text-green);
+  color: var(--text-green);
   /* width: 160px; */
 }
 
@@ -189,14 +197,14 @@ h2 {
 fieldset {
   margin: 0;
   padding: 0 20px;
-  border: 2px solid var(--form-green);
+  border: 2px solid var(--text-green);
 }
 
 legend {
   margin-bottom: 20px;
   font-size: 22px;
   font-weight: bold;
-  color:var(--form-green);
+  color: var(--text-green);
 }
 
 form label {
@@ -212,7 +220,7 @@ select {
   padding: 8px;
   width: 150px;
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: var(--bg-primary);
 }
 
 input[type="text"] {
