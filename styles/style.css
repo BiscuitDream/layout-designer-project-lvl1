@@ -133,6 +133,10 @@ h1 {
 .button-green {
   border-color: var(--form-green);
   color: var(--form-green);
+  /* width: 160px; */
+}
+
+.w-160 {
   width: 160px;
 }
 
@@ -173,7 +177,7 @@ h2 {
   text-align: center;
 }
 
-form {
+.form-request {
   margin: 0 auto;
   width: 460px;
 }
