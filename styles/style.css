@@ -104,8 +104,8 @@ main {
 }
 
 .intro {
-  padding-top: 38px;
-  padding-bottom: 29px;
+  /* padding-top: 38px; */
+  /* padding-bottom: 29px; */
 
   background-color: #757281;
   background-image: url("../images/banner.png");
@@ -153,6 +153,11 @@ h1 {
   margin: 0 auto;
   padding-top: 65px;
   padding-bottom: 80px;
+}
+
+.wrapper-section-fat {
+  padding-top: calc(38px + 65px);
+  padding-bottom: calc(29px + 80px);
 }
 
 h2 {
