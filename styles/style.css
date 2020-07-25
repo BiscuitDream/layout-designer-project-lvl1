@@ -87,15 +87,15 @@ main {
   flex-direction: column;
 }
 
-.jc-sb {
+.justify-content-between {
   justify-content: space-between;
 }
 
-.jc-sa {
+.justify-content-around {
   justify-content: space-around;
 }
 
-.ali-c {
+.align-items-center {
   align-items: center;
 }
 
